@@ -1,0 +1,6 @@
+etymological_status_id,etymological_status_name,etymological_status_code
+1,unknown or unclear etymology,u.o.
+2,unclear form of the etymon,u.e.
+3,the etymon does not contain an OL cluster,-OL
+4,borrowing,BORR
+5,possible borrowing,BORR?
