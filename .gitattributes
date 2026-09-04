@@ -1,0 +1,12 @@
+# How git handles line endings in this repository.
+#
+# Windows tools (including pandas running on Windows) end lines with CRLF
+# (\r\n); macOS and Linux use LF (\n). Without a rule here, the same file
+# written on two different systems looks 100% changed to git.
+#
+# text=auto: store every text file with LF *inside the repository*, and
+# convert back to the local convention on checkout. Files on disk keep the
+# form your tools expect, while the repository stays consistent across
+# operating systems.
+
+* text=auto
